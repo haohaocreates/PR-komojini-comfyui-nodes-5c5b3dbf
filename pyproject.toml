@@ -1,0 +1,15 @@
+[project]
+name = "komojini-comfyui-nodes"
+description = "Nodes:YouTube Video Loader. Custom ComfyUI Nodes for video generation"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["pytube==15.0.0", "opencv-python", "numpy", "torch", "pillow", "psutil", "gputil"]
+
+[project.urls]
+Repository = "https://github.com/komojini/komojini-comfyui-nodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "komojini-comfyui-nodes"
+Icon = ""
